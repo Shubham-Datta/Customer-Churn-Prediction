@@ -1,3 +1,4 @@
+````markdown
 # Customer Churn Prediction
 
 This project predicts customer churn using machine learning. It includes exploratory data analysis (EDA), feature engineering, model training, and a Streamlit web app for making predictions.
@@ -9,6 +10,11 @@ This project predicts customer churn using machine learning. It includes explora
 - `model.pkl`: Trained model (SVC by default, or your best model).
 - `scaler.pkl`: Scaler used for preprocessing features.
 - `requirements.txt`: Python dependencies.
+
+## Dataset
+
+The dataset used in this project can be downloaded from Kaggle:  
+[Telecom Customer Churn Insights for Analysis](https://www.kaggle.com/datasets/abdullah0a/telecom-customer-churn-insights-for-analysis/data)
 
 ## Setup Instructions
 
@@ -24,7 +30,7 @@ python -m venv venv
 venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
-```
+````
 
 ### 3. Install Dependencies
 
@@ -52,10 +58,13 @@ streamlit run app.py
 
 ## Notes
 
-- If your best model is not SVC, update `model.pkl` and `scaler.pkl` accordingly. The app will use whichever model you provide.
-- Make sure the features used in the app match those used during training and scaling.
+* If your best model is not SVC, update `model.pkl` and `scaler.pkl` accordingly. The app will use whichever model you provide.
+* Make sure the features used in the app match those used during training and scaling.
 
 ## Troubleshooting
 
-- If you encounter missing package errors, ensure all dependencies in `requirements.txt` are installed.
-- For issues with model loading, verify that `model.pkl` and `scaler.pkl` are generated and saved correctly in the notebook.
+* If you encounter missing package errors, ensure all dependencies in `requirements.txt` are installed.
+* For issues with model loading, verify that `model.pkl` and `scaler.pkl` are generated and saved correctly in the notebook.
+
+```
+```
