@@ -64,7 +64,3 @@ streamlit run app.py
 
 - If you encounter missing package errors, ensure all dependencies in `requirements.txt` are installed.
 - For issues with model loading, verify that `model.pkl` and `scaler.pkl` are generated and saved correctly in the notebook.
-
-## License
-
-This project is for educational purposes.
